@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MacBro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h2>MacBro</h2>
+    <ul class="nav">
+      <li><a href="#">Mac</a></li>
+      <li><a href="#">iPhone</a></li>
+      <li><a href="#">iPad</a></li>
+      <li><a href="#">Watch</a></li>
+      <li><a href="#">Airpods</a></li>
+    </ul>
+  </header>
+  <section class="main">
+    <div class="img_div">
+    <div class="big_img">
+      <img src="img/gray_1.jpeg" alt="">
+    </div>
+    <ul class="img_list">
+      <li class="img_list_item imgActive">
+        <img src="img/gray_1.jpeg" alt="">
+      </li>
+      <li class="img_list_item">
+        <img src="img/gray_2.jpeg" alt="">
+      </li>
+      <li class="img_list_item">
+        <img src="img/gray_3.jpeg" alt="">
+      </li>
+      <li class="img_list_item">
+        <img src="img/gray_4.jpeg" alt="">
+      </li>
+    </ul>
+    </div>
+    <div class="parametr">
+      <div class="macName">
+        <h2>MacBook Air 13-inch</h2>
+        <p>M1/<span class="raM">8</span>/<span class="memorY">256</span> <span  class="coloR">Space Gray</span></p>
+      </div>
+      <div class="ram">
+        <p class="tag">Ram :</p>
+        <button class=" btn btn_8 active">8GB</button>
+        <button class="btn btn_16">16GB</button>
+      </div><br>
+      <div class="memory">
+        <p class="tag">Memory size :</p>
+        <button class="btn btn_16 active">256GB</button>
+        <button class="btn btn_16">512GB</button>
+        <button class="btn btn_16">1TB</button>
+      </div><br>
+      <div class="color">
+        <p class="tag">Ranglar :</p>
+        <button class="color_btn">
+          <span class="gold col"></span><br>
+          <p>Gold</p>
+        </button>
+        <button class="color_btn" >
+          <span class="silver col"></span><br>
+          <p>Silver</p>
+        </button><br>
+        <button class="color_btn active">
+          <span class="gray col"></span><br>
+          <p>Space Gray</p>
+        </button>
+      </div>
+      <div class="num">
+        <button class="remov" onclick="numRemove()">-</button>
+        <p class="num_one">1</p>
+        <button class="add" onclick="numAdd()">+</button>
+      </div>
+      <div class="sum">
+        <h3 class="total">17 250 000 so'm</h3>
+        <del>20 934 500 so'm</del>
+      </div>
+      <div class="payment">
+        <button class="add-to-cart">Add to cart</button>
+        <button class="purchase">Purchase</button>
+     </div>
+   </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
